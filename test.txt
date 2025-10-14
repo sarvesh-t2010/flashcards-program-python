@@ -1,0 +1,3 @@
+What is the capital of France?|Paris
+Who wrote Hamlet?|Shakespeare
+What is 2 + 2?|4
