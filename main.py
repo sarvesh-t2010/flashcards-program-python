@@ -78,7 +78,7 @@ print("⢀⠘⠛⠛⠛⠛⠛⠛⢀⢀⠘⠛⠛⠛⠛⠛⠛⠛⠃⢀⠛⠛⠛⠛"
 print("𝑺𝒂𝒓𝒗𝒆𝒔𝒉 𝑻𝒉𝒊𝒂𝒈𝒂𝒓𝒂𝒋𝒂𝒏 𝑷𝒓𝒆𝒔𝒆𝒏𝒕𝒔")
 print("Awesome flashcard app 5000")
 print("------------------------------------------")
-print("Remember, make sure to run this on your computer's console so that the linear regression graph shows up and please make sure you read the read.md for help!")
+print("Remember, make sure to run this on your computer's console so that the linear regression graph shows up and please make sure you read the readme.md for help!")
 while True: 
     try:
         file_path = str(input("------------------------------------------\nEnter the path of your .txt file of your flashcards: ")) #find and read path
@@ -118,7 +118,7 @@ while True:
             test = final_flashcards[i][1]
         break
     except:
-        print("Error! Your flashcards are formatted incorrectly, make sure you chose the correct spacing type and refer back to the read.md explaining how to properly put files in here!")
+        print("\nError! Your flashcards are formatted incorrectly, make sure you chose the correct spacing type and refer back to the readme.md explaining how to properly put files in here!")
         continue
 
 print("------------------------------------------\nOpening flashcards...\n------------------------------------------")
